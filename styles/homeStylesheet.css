@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+  background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, .3);
+}
+article{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+article p{
+  padding-bottom: 1%;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+article p{
+	font-size: 110%;
+
+	font-family:Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif;
+}
+#pageTitle{
+	height: 10%;
+	text-align: center;
+	font-size: 500%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	margin: auto;
+  margin-bottom: 1%;
+	vertical-align: center;
+  border-bottom-style: inset;
+  border-bottom: 12px;
+  background-color: #e6e6e6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#contentArea{
+  max-width:100%;
+	max-width: 1024px;
+  min-height: 1014px;
+	margin:auto;
+  background-color: #a3a3a8;
+  border-radius: 2px 2px 2px 2px;
+  border: 3px solid #4d0000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pageHead{
+	position:relative;
+	width:100%;
+}
+#articleTitle{
+  position:relative;
+  width:100%;
+  text-align:center;
+  font-size: 4em;
+  padding: 5px 5px 5px 5px;
+	padding-top: 5%;
+  margin: auto;
+}
+#articleTitle h2{
+  position:relative;
+  width:100%;
+  margin: auto;
+}
+#articleImage{
+  position: relative;
+  max-width: 100%;
+}
+#articleImage img{
+  display:inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  max-width: 89%;
+  max-height: 99%;
+  border-radius: 25px 150px 25px 150px;
+  border: 5px outset #202022;
+  border-top-style: inset;
+  border-left-style: inset;
+	transition: 0.2s;
+}
+#articleImage img:hover{
+	border-color: rgb(200,200,200);
+	transition: 0.2s;
+}
+#buttonDiv{
+	position:relative;
+	width: 100%;
+	margin: auto;
+	margin-top: 2%;
+	text-align: center;
+}
+
+/*Begin Button CSS*/
+#buttonDiv a:link, #buttonDiv a:visited {
+    background-color: #ff3333;
+    color: white;
+    padding: 2.5% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+#buttonDiv a{
+	transition: 0.5s;
+}
+#buttonDiv a:hover, #buttonDiv a:active {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		transition: 0.2s;
+}
+
+/*Button CSS*/
